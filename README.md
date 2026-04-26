@@ -30,6 +30,18 @@ Identifies an individual analysis workflow executed for a specific dataset.
 - **Requirement**: Each folder in this tier must contain a "final_maps.cvs" defining the list of final output maps (Path, Resolution, Free Format).
 
 ## 4. Tutorial: Building AI Training Datasets Using Intermediate Data on AWS
+To help you get started with the Cryo-EM SPA Workflow Records dataset, we provide an interactive tutorial notebook. 
+
+### Interactive Tutorial Notebook
+
+| Tutorial Topic | Links |
+| :--- | :--- |
+| **Get to know the Cryo-EM SPA Records** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KEK-SBRC-CryoEM/cryoem-spa-workflow-records/blob/main/tutorials/get_to_know_cryoem_spa_records.ipynb) [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/KEK-SBRC-CryoEM/cryoem-spa-workflow-records/blob/main/tutorials/get_to_know_cryoem_spa_records.ipynb) |
+
+#### What you will learn:
+- How to access the dataset using `boto3`.
+- Navigating the **ArXiv Tier 3 (Process ID)** metadata structure.
+- Reconstructing intermediate data from metadata records.
 
 ### Prerequisites
 To access this data, use the **AWS CLI**. As this dataset is published as a public bucket, data can be accessed even by users without an AWS account using the `--no-sign-request` option. This option skips the signing process, allowing anyone to retrieve data immediately.
