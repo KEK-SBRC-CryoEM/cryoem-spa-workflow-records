@@ -8,7 +8,6 @@ The root directory of the Amazon S3 bucket is classified into the following four
 - **ArXiv/** : Stores the actual analysis data, which forms the core of this dataset.
 - **Scripts/** : A collection of execution scripts used for automatic path generation, data archiving, and uploading to S3. This also includes code that will serve as the foundation for future Web GUI applications.
 - **Documents/** : Stores dataset specifications, a mapping table for software versions (MAIN_SOFTWARE_ID_List.txt), and citation protocols.
-- **README.md** : Describes the navigation for the entire bucket, dataset specifications, and terms of use.
 
 ## 3. Detailed Hierarchical Structure and Naming Conventions under "ArXiv"
 Data under ArXiv/ is managed according to a strict 3-tier structure and naming convention to maximize searchability and ease of automated processing.
