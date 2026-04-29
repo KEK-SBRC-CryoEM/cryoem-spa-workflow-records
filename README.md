@@ -15,17 +15,17 @@ Data under ArXiv/ is managed according to a strict 3-tier structure and naming c
 ### 1st Tier: Origin of Measurement Data
 Data is categorized according to its source:
 - **For public data**: Designated as "EMPIAR".
-- **For unpublished data**: Designated as "[Facility ID]_[Microscope ID]" (e.g., KEK_KriosG4, KEK_ArcticaG2).
+- **For unpublished data**: Designated as "[Facility ID]\_[Microscope ID]" (e.g., KEK_KriosG4, KEK_ArcticaG2).
 
 ### 2nd Tier: Dataset ID
 Represents a specific measurement session unit.
 - **Under "EMPIAR"**: Designated as "EMPIAR#####".
-- **Under "[Facility ID]_[Microscope ID]"**: Designated as "[Facility ID] [Microscope ID] [Dataset ID]".
-- **Format**: "[Measurement Date (YYMMDD)]_[User ID] Grid[Grid Number] [Free Format]".
+- **Under "[Facility ID]\_[Microscope ID]"**: Designated as "[Facility ID]\_[Microscope ID]\_[Dataset ID]".
+  - **Format of [Dataset ID]**: "[Measurement Date (YYMMDD)]\_[User ID]\_Grid[Grid Number]\_[Free Format]".
 
 ### 3rd Tier: Process ID
 Identifies an individual analysis workflow executed for a specific dataset.
-- **Format**: "[Start Date (YYMMDD)]_[Analyst_ID]_[Software_ID]_[Free_Format]".
+- **Format**: "[Start Date (YYMMDD)]\_[Analyst_ID]\_[Software_ID]\_[Free_Format]".
 - **Requirement**: Each folder in this tier must contain a "final_maps.cvs" defining the list of final output maps (Path, Resolution, Free Format).
 
 ## 4. Tutorial: Building AI Training Datasets Using Intermediate Data on AWS
