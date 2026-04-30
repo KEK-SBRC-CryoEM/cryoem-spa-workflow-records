@@ -26,7 +26,7 @@ Represents a specific measurement session unit.
 ### 3rd Tier: Process ID
 Identifies an individual analysis workflow executed for a specific dataset.
 - **Format**: "[Start Date (YYMMDD)]\_[Analyst_ID]\_[Software_ID]\_[Free_Format]".
-- **Requirement**: Each folder in this tier must contain a "final_maps.cvs" defining the list of final output maps (Path, Resolution, Free Format).
+- **Requirement**: Each folder in this tier must contain a "final_maps.csv" defining the list of final output maps (Path, Resolution, Free Format).
 
 ## 4. Tutorial: Building AI Training Datasets Using Intermediate Data on AWS
 To help you get started with the Cryo-EM SPA Workflow Records dataset, we provide an interactive tutorial notebook. 
